@@ -14,7 +14,7 @@ import react from "@astrojs/react";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://astro-blog.com',
+  site: 'https://enchanting-alfajores-1a4f8c.netlify.app',
   integrations: [image({
     serviceEntryPoint: '@astrojs/image/sharp'
   }), sitemap({
