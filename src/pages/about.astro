@@ -1,0 +1,20 @@
+---
+// component imports
+import Link from "../components/Link.astro";
+import MainLayout from "../layouts/MainLayout.astro";
+---
+
+<MainLayout title="About" description="My About Page">
+ <section class="container about" aria-label="About Me">
+  <img src="/images/headshot.jpg" alt="My headshot" width="200" height="330">
+  <div class="content">
+    <h1 class="h1">My Blog</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat assumenda laborum vel, magnam nostrum dolore sed quibusdam saepe officia rerum? Quibusdam, temporibus. Saepe asperiores perspiciatis ipsam, corrupti maiores eveniet delectus magnam hic eaque ad molestiae, impedit mollitia culpa reprehenderit soluta.</p>
+    <Link 
+      href="mailto:chris@codinginpublic.dev"
+      style="primary"
+      text="Contact Me"
+    />
+  </div>
+ </section>
+</MainLayout>
